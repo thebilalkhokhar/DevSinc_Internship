@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.columns {
+  columns: 3 200px;
+  column-gap: 3rem;
+  column-rule: 3px solid #000;
+  padding: 1rem;
+}
+.columns h2 {
+  background-color: brown;
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  break-inside: avoid;
+  /* break-before: column; */
+}
+.columns p {
+  padding-bottom: 1rem;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  margin: 1rem 0;
+  break-inside: avoid;
+  column-span: all;
+}

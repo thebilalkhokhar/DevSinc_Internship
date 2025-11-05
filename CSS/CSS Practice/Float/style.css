@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0.5rem;
+  border: 2px solid red;
+  display: flow-root;
+}
+
+.float {
+  margin: 0.5rem;
+  padding: 2rem;
+  background-color: aqua;
+  float: left;
+}
+
+.float-text {
+  margin: 0.5rem;
+  padding: 1rem;
+  background-color: lightgreen;
+}
+/* .clear {
+  clear: both;
+} */
